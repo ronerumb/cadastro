@@ -1,0 +1,31 @@
+<section>
+
+<form action="./?pg=Produtos&metodo=gravar" method="post">
+   <table class="table container">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Nome</th>
+      <th scope="col">Tipo de gramatura</th>
+      <th scope="col">Estoque</th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr>      
+      <td style="width: 56px;"><input type="text" name="nome" id="nome" ></td>
+      <td style="width: 216px;"><select class="form-select" aria-label="Default select example" name="select" id="select">
+        <option  value="un" selected>un</option>
+        <option  value="kg" >kg</option>
+        <option value="mg">mg</option>
+        <option value="g">g</option>
+        
+      </select></td>
+      <td><input type="text" name="estoque" id="estoque"></td>
+    </tr>
+  </tbody>
+  <td><input type="submit" class="btn-success" value="Gravar"></td>
+   </table>
+   
+</form>
+
+</section>
